@@ -17,20 +17,29 @@
             text-align: center;
             color: #ffffff;
         }
-        h1 {
-            margin-bottom: 40px;
+        .title-big {
+            font-size: 64px; /* Adjust size as needed */
+            margin: 0;
+            padding: 0;
+            margin-bottom: 0px; /* Increase space between GALLO and New Jersey */
+        }
+        .title-small {
+            font-size: 32px; /* Adjust size as needed */
+            margin: 0;
+            padding: 0;
+            /* Removed the negative margin to give space */
         }
         .button {
             display: block;
             width: 80%;
             max-width: 300px;
             margin: 20px;
-            padding: 20px;
+            padding: 40px;
             font-size: 24px;
-            color: #000000;
+            color: #ffffff; /* Changed text color to white */
             background-color: #ff0000;
             border: none;
-            border-radius: 10px;
+            border-radius: 9px;
             text-decoration: none;
             text-align: center;
             transition: background-color 0.3s, color 0.3s;
@@ -42,9 +51,9 @@
     </style>
 </head>
 <body>
-    <h1>GALLO</h1>
-    <h1>New Jersey</h1>
+    <h1 class="title-big">GALLO</h1>
+    <h2 class="title-small">New Jersey</h2>
     <a class="button" href="http://www.gallowinenj.com">Visit our website</a>
-    <a class="button" href="mailto:gracjan.lis@gallowinenj.com">Send us an Email</a>
+    <a class="button" href="mailto:gracjan.lis@gallowinenj.com">Send us an e-mail</a>
 </body>
 </html>
